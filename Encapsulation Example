@@ -1,0 +1,46 @@
+public class EncapTest {
+	private int age;
+	private String name;
+	private int Id;
+	
+	public int getage() {
+		return age;
+	}
+	public String getname() {
+		return name;
+	}
+	public int getId() {
+		return Id;
+	}
+	public void setage(int Age) {
+		age=Age;
+	}
+	public void setname(String Name) {
+		name=Name;
+	}
+	public void setId(int ID) {
+		Id= ID;
+		
+	}
+}
+
+public class classEncap {
+
+	public static void main(String[]args) {
+		
+		EncapTest encap=new EncapTest();
+		encap.setname("Kiran");
+		encap.setage(29);
+		encap.setId(111);
+//		
+//		System.out.println("Name : " + encap.getname()+", "+ "Age :" + encap.getage()+ ", "+  "ID :" + encap.getId());
+		System.out.println("Name : " + encap.getname());
+		System.out.println("Age :" + encap.getage());
+		System.out.println("ID :" + encap.getId());
+		
+	}
+	
+
+}
+
+
